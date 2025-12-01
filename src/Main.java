@@ -5,6 +5,8 @@ public class Main {
 
         System.out.printf("Bienvenido al restaurante Ls");
         CajaRegistradoraComida.registrar();
+        CalculadoraDescuentos.calcular();
+
 
         }
     }
