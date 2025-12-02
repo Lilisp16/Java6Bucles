@@ -7,6 +7,17 @@ public class Main {
         CajaRegistradoraComida.registrar();
         CalculadoraDescuentos.calcular();
 
+        System.out.printf("-- TABLA DE MULTIPLICAR -- \n");
+        TablaMultiplicarInteractiva.multiplicar();
+
+
+        System.out.printf("-- CAJERO AUTOMATICO -- \n");
+        CajeroAutomatico.operar();
+
+
+
+
+
 
         }
     }
