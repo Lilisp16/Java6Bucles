@@ -46,7 +46,7 @@ public class CajaRegistradoraComida {
         }while (opcion != 4) ;
 
             // aqui mostramos el total y calculamos el cambio
-            System.out.println("\n total a pagar" + total);
+            System.out.println("\n total a pagar " + total);
             if(total > 0){
                 System.out.println("ingrese el monto a pagar: $ ");
                 double pago = scanner.nextDouble();
